@@ -21,7 +21,7 @@ def keep_alive_ping():
     while True:
         try:
             # Пингуем свой же хостинг
-            response = requests.get('https://your-bot-name.onrender.com/health', timeout=30)
+            response = requests.get('https://test-plqd.com/health', timeout=30)
             print(f"🔄 Keep-alive ping: {response.status_code}")
         except Exception as e:
             print(f"❌ Keep-alive failed: {e}")
