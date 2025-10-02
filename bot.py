@@ -27,7 +27,7 @@ def keep_alive_ping():
             print(f"❌ Keep-alive failed: {e}")
 
         # Ждем 10 минут
-        time.sleep(600)
+        time.sleep(6)
 
 
 # Запускаем в отдельном потоке после запуска бота
