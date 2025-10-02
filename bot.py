@@ -515,6 +515,7 @@ if __name__ == "__main__":
     time.sleep(3)
 
     try:
+        print("logs")
         bot.remove_webhook()
         time.sleep(2)
 
